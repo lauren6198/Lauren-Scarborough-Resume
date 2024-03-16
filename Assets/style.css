@@ -2,20 +2,22 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Monaco', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 0;
-}
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10px;
+
+body {
+    font-family: "peachy-keen-jf", sans-serif;
+    font-weight: 1;
+    font-style: normal; 
+    font-size: 10px;
+    color:#fefefe;
+    margin: 0;
+/* background-image: radial-gradient( to center, blue 0%, blue 60%, red 60%, red 100%); */
+background-color:#EE9EDF;
 }
 
 header {
     display: flex;
-    font-size: larger;
+    font-size: 20px;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px;
@@ -23,7 +25,8 @@ header {
     background-color:#F9C5F0;
     border-style:dashed;
     border-width:10px;
-    border-color:#FAE6F7;
+    border-color: #FDE5F9;
+    text-shadow: -1px 0 white, 0 1px #900C78, 1px 0 #900C78, 0 -1px #F7C9EF;
 
 }
 
@@ -37,12 +40,80 @@ nav ul {
     display: flex;
     padding-top: 12px;
     padding-left:0px;
+    padding-right: 80px;
     justify-content: space-between;
-    min-width: 500px;
-    
+    min-width: 450px;
+    text-shadow: -1px 0 white, 0 1px #900C78, 1px 0 #900C78, 0 -1px #F7C9EF;
 }
-
 
 nav a:hover {
     color:#EE9EDF;
+    text-shadow: -1px 0 White, 0 1px #900C78, 1px 0 #900C78, 0 -1px #F7C9EF;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+hr {
+    margin-bottom: 50px;
+    margin-top: 25px;
+    border: none;
+    border-top: 30px dotted #F9C5F0;
+}
+
+#Intro {
+    Display: flex;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color:#E704BE;
+    text-shadow: -1px 0 White, 0 1px #900C78, 1px 0 #900C78, 0 -1px #F7C9EF;
+}
+#Intro img {
+    margin-right: 15px;
+}
+
+#About-Me {
+    display: flex;
+    margin-top: 5px;
+}
+
+#My-Picture {
+    text-align: justify;
+    width: 400px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#My-Picture p {
+    display: block;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.About-Title {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:#E704BE;
+    text-shadow: -1px 0 White, 0 1px #900C78, 1px 0 #900C78, 0 -1px #F7C9EF;
+}
+
+#Biography {
+    padding: 15px;
+    font-family: "peachy-keen-jf", sans-serif;
+    font-weight: 100;
+    font-style: normal; 
+    font-size: 20px;
+    color: #FDE5F9;
+    text-shadow: -1px 0 #900C78, 0 1px #900C78, 1px 0 #900C78, 0 -1px #F7C9EF;
 }
