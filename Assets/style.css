@@ -73,6 +73,7 @@ hr {
 }
 #Intro img {
     margin-right: 15px;
+    margin-top: 5px;
 }
 
 #About-Me {
@@ -87,7 +88,14 @@ hr {
     margin-top: 5px;
     margin-bottom: 0px;
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 20px;
+}
+
+#My-Picture img {
+    display: block;
+    padding: 0px;
+    border: 5px solid #900C78;
+    border-radius: 20px;
 }
 
 #My-Picture p {
@@ -96,6 +104,7 @@ hr {
     margin-bottom: 1px;
     margin-left: 1px;
     margin-right: 1px;
+    text-shadow: -1px 0 #B50F97, 0 1px #B50F97, 1px 0 #B50F97, 0 -1px #B50F97;
 }
 
 .About-Title {
@@ -109,11 +118,45 @@ hr {
 }
 
 #Biography {
-    padding: 15px;
+    padding: 5px;
     font-family: "peachy-keen-jf", sans-serif;
     font-weight: 100;
     font-style: normal; 
     font-size: 20px;
-    color: #FDE5F9;
+    color: White;
     text-shadow: -1px 0 #900C78, 0 1px #900C78, 1px 0 #900C78, 0 -1px #F7C9EF;
+}
+
+.Projects-Title {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:#E704BE;
+    text-shadow: -1px 0 White, 0 1px #900C78, 1px 0 #900C78, 0 -1px #F7C9EF;
+}
+
+#My-Projects {
+    padding: 5px;
+    font-family: "peachy-keen-jf", sans-serif;
+    font-weight: 100;
+    font-style: normal; 
+    font-size: 20px;
+    color: White;
+    text-shadow: -1px 0 #900C78, 0 1px #900C78, 1px 0 #900C78, 0 -1px #F7C9EF;
+}
+
+#My-Projects a {
+    color: #F171DA;
+}
+
+#My-Projects a:visited {
+    text-decoration: none; color: #F171DA;
+    text-shadow: -1px 0 White, 0 1px #900C78, 1px 0 #900C78, 0 -1px #F7C9EF;
+}
+
+#My-Projects a:hover {
+    color:#FA8FE6;
+    text-shadow: -1px 0 White, 0 1px #900C78, 1px 0 #900C78, 0 -1px #F7C9EF;
 }
