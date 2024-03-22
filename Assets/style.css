@@ -269,7 +269,7 @@ hr {
   font-kerning: none;
 }
 
-/* MOBILE VERSION */
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 992) {
   header {
@@ -599,6 +599,88 @@ hr {
   .Footer {
     font-size: 20px;
     height: 200px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  body {
+    width: 100%;
+  }
+
+  header {
+    height: 325px;
+    width: 100%;
+    padding: 0 auto;
+    flex-direction: column;
+    justify-content: initial;
+  }
+
+  #My-Picture {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    margin: 0px;
+  }
+
+  #My-Picture p {
+    float: none;
+    width: 390px;
+    margin-left: 55px;
+    font-size: 85%;
+  }
+
+  .About-Title {
+    margin: 10px;
+  }
+
+  #Biography {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 0px;
+    height: 800px;
+    padding-left: 15px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  .Projects-Title {
+    text-align: center;
+  }
+
+  #Image-Title {
+    text-align: center;
+  }
+
+  #My-Projects {
+    flex-direction: column;
+    text-align: center;
+    justify-content: initial;
+    margin-left: 20px;
+
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 390px;
+    height: 650px;
+  }
+
+  #Contact-Me {
+    flex-direction: column;
+    justify-content: initial;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 390px;
+    height: 400px;
+  }
+
+  .Footer {
+    height: 100px;
     text-align: center;
   }
 }
