@@ -45,6 +45,7 @@ nav {
 
 nav a {
   color: #e704be;
+  text-align: center;
 }
 
 nav ul {
@@ -59,10 +60,6 @@ nav ul {
   justify-content: space-between;
   min-width: 550px;
   text-shadow: -1px 0 white, 0 1px #900c78, 1px 0 #900c78, 0 -1px #f7c9ef;
-}
-
-nav a {
-  text-align: center;
 }
 
 nav a:hover {
@@ -294,8 +291,6 @@ hr {
   .Footer {
     height: 50px;
     width: 100%;
-    color: #e704be;
-    text-shadow: -1px 0 white, 0 1px #900c78, 1px 0 #900c78, 0 -1px #f7c9ef;
   }
 
   .Footer > h3 {
