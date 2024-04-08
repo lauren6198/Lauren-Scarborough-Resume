@@ -1,14 +1,21 @@
-Lauren Scarborough's Portfolio
+# Lauren Scarborough's Portfolio
 
+## Webpage Preview
+
+## About
 This webpage was created to showcase my projects as an up and coming web developer. The webpage provides information about myself, my projects with links to the pages, and my contact information.
 
+## Viewing
 In order to view my webpage, insert this link into your browser: https://lauren6198.github.io/Lauren-Scarborough-Resume/  
 To view the repository, insert this link into your browser: https://github.com/lauren6198/Lauren-Scarborough-Resume.git
 
+## Use
 This webpage's intended use is for potential employers to see my work as well as my capabilities as a web developer. To get the best out of my webpage, utilize the navigation at the top to jump to specific sections within the page or scroll down to view all information in order as it is presented. Once you arrive at the My Projects section, click the image to be taken to a webpages I have worked on.
 
+## Collaboration
 For now I would like the webpage to stay as-is. So no further contributions are needed at this time. I will change and update the page as I see fit. Should there be any bugs or errors on the webpage, please reach out to me directly via telephone or email provided at the bottom of this README.
 
+## Licensing
 License: MIT License
 
 Copyright (c) 2024 Lauren Scarborough
