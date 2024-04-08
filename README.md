@@ -1,6 +1,7 @@
 # Lauren Scarborough's Portfolio
 
 ## Webpage Preview
+![Webpage Preview](<Assets/images/Webpage Preview.png>)
 
 ## About
 This webpage was created to showcase my projects as an up and coming web developer. The webpage provides information about myself, my projects with links to the pages, and my contact information.
